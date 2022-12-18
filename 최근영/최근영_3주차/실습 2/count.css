@@ -1,0 +1,48 @@
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 80%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.num_title {
+    font-size: 5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;    
+}
+
+.num_count {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+.buttons {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn {
+    border-radius: .5rem;
+    padding: .5rem 1rem;
+    cursor: pointer;
+}
+
+.odd {
+    color: red;
+}
+
+.even {
+    color: blue;
+}
